@@ -11,7 +11,7 @@ import torch.nn.functional as F
 
 
 
-# ═══════════════════════════════════════════════
+
 class PositionalEncoding(nn.Module):
     """
     Injects position information into embeddings.
