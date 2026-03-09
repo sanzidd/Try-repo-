@@ -1,9 +1,4 @@
-"""
-STGT-ETD: Spatio-Temporal Graph Transformer for Electricity Theft Detection
-Architecture:
-  Input → Temporal Embedding → Transformer Encoder →
-  GNN Layer → Attention Fusion → FC → Classification
-"""
+
 import math
 import torch
 import torch.nn as nn
