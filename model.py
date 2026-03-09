@@ -36,7 +36,7 @@ class PositionalEncoding(nn.Module):
         return self.dropout(x)
 
 
-# ═══════════════════════════════════════════════
+
 # 2. TEMPORAL TRANSFORMER ENCODER
 # ═══════════════════════════════════════════════
 class TemporalTransformerEncoder(nn.Module):
