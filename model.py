@@ -10,8 +10,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-# ═══════════════════════════════════════════════
-# 1. POSITIONAL ENCODING (for Transformer)
+
 # ═══════════════════════════════════════════════
 class PositionalEncoding(nn.Module):
     """
